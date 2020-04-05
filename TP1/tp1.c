@@ -100,6 +100,24 @@ void free_adjlist(adjlist *g){
 ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
 
+void nb_nodes_edges(char *input, unsigned long *n, unsigned long *e) { // count the number of nodes and edges 
+    unsigned long i = 0;
+    unsigned long j = 0;
+    FILE *file=fopen(input,"r");
+    *n = 0;
+    *e = 0;
+    while (fscanf(file,"%lu %lu", &i, &j)==2)
+    {
+        *n = max3(*n,i,j);
+        *e = *e + 1;
+    }
+
+    *n = *n + 1;
+    fclose(file);
+}
+
+
+
 typedef struct node node;
 struct node
 {
