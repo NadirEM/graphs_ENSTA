@@ -23,6 +23,8 @@ run "./tp1 graph.txt lower_bound"
 
 run "./tp1 graph.txt triangle"
 
+# TP 2 
+## Exrecices 1 
 
 
 
