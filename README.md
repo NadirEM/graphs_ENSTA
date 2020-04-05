@@ -11,6 +11,7 @@ In the folder TP1, compile : `gcc tp1 -O9 -o tp1`
 run "./tp1 graph.txt cc print" 
 
 print = 0 : the program outputs the sizes of each connected components and the fraction of nodes in the largest connected component 	
+
 print = 1 : the program outputs only the fraction of nodes in the largest connected component 
 
 ### Lower bound to the diameter
