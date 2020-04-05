@@ -2,7 +2,7 @@
 
 # TP 1
 
-In the folder TP1, compile : `gcc tp1 -O9 -o tp1`
+In the folder TP1, compile : `gcc tp1.c -O9 -o tp1`
 
 ## Exercise 5 - BFS
 
@@ -24,8 +24,8 @@ run "./tp1 graph.txt lower_bound"
 run "./tp1 graph.txt triangle"
 
 # TP 2 
-## Exrecices 1 
-In this exercice we use the "Epinions social networkopinion" data http://snap.stanford.edu/data/soc-Epinions1.html.
+## Exercise 1 
+In this exercise we use the "Epinions social network opinion" data http://snap.stanford.edu/data/soc-Epinions1.html.
 
 To generate the results run 
 
@@ -33,7 +33,7 @@ To generate the results run
 
 # TP 3
 
-In the folder TP3, compile : `gcc tp3 -O9 -o tp3`
+In the folder TP3, compile : `gcc tp3.c -O9 -o tp3`
 
 ## Exercise 1 - Simple benchmark  
 
