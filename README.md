@@ -25,6 +25,9 @@ run "./tp1 graph.txt triangle"
 
 # TP 2 
 ## Exrecices 1 
+In this exercice we use the "Epinions social networkopinion" data http://snap.stanford.edu/data/soc-Epinions1.html.
+
+To generate the results run 
 
 
 
