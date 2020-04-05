@@ -27,7 +27,15 @@ run "./tp1 graph.txt triangle"
 ## Exercise 1 
 In this exercise we use the "Epinions social network opinion" data http://snap.stanford.edu/data/soc-Epinions1.html.
 
-To generate the results run 
+To generate the results run "./tp2 Page Rank.c"
+To explore the results run the notebook "./TP2/PR.ipynb"
+PS: to explore the results, you have to generate the PR results with the diffent alpha's value.
+## Exercise 2
+To generate the results run "./tp2 core.c" (with the different graphs)
+
+## Exercice 3 
+To generate the results run "./tp2 core.c"
+To explore the results run the notebook "./TP2/cores.ipynb"
 
 
 
